@@ -1,0 +1,136 @@
+.projects-section {
+  height: 140vh;
+  color: white;
+  background-color: #181818;
+  padding: 100px 80px;
+}
+
+.projects-section .upper-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.projects-section .upper-section h1 {
+  color: #08d665;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.projects-section .upper-section h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #c8c6c6;
+  text-transform: uppercase;
+}
+
+.projects-section .project-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.project-description button {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #08d665;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-description button:hover {
+  background-color: #08d665;
+}
+
+.project-description button:hover svg {
+  color: white;
+}
+
+.project-description button svg {
+  width: 25px;
+  color: #08d665;
+}
+
+.project-description button svg:hover {
+  color: white;
+}
+
+.project-description .btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.projects-section .lower-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.projects-section .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #252525;
+  height: 500px;
+  padding: 50px 50px 0 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+.projects-section .carousel-item h2 {
+  color: #08d665;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.projects-section .carousel-item p {
+  color: #c8c6c6;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.sharing-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.sharing-icons a {
+  background-color: #08d665;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.sharing-icons a:hover {
+  color: #181818;
+  background: white;
+}
+
+.sharing-icons svg {
+  fill: #08d665;
+  width: 50px;
+}
+
+/* Carousel Item Animation */
+.projects-section .carousel-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.projects-section .carousel-item:hover {
+  transform: translateY(-10px);
+  background-color:#1d1c1c;
+}

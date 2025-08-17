@@ -1,0 +1,105 @@
+/* Breakpoint for mobile devices */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem; 
+    flex-direction: row;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  .nav-menu {
+    display: none; 
+  }
+
+  .navbar-btn {
+    display: none; 
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+   .hamburger-menu-container {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+/* Tablet devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    padding: 1.5rem 3rem; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+  }
+
+  .nav-menu {
+    display: none; 
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-btn {
+    display: none; 
+  }
+
+  .logo {
+    font-size: 2.5rem; 
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+  }
+
+  .hamburger-menu-container {
+    display: flex;
+  }
+}
+
+/* Desktop devices */
+@media screen and (min-width: 1025px) {
+  nav {
+    padding: 0 5rem;
+  }
+
+  .header-nav-links {
+    gap: 2rem;
+  }
+
+  .nav-menu {
+    gap: 2rem;
+    display: flex; 
+  }
+
+  .navbar-btn {
+    max-width: 100%;
+    display: flex;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hamburger-menu {
+    display: none; 
+  }
+
+   .hamburger-menu-container {
+    display: none;
+  }
+}
