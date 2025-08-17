@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AIM>DEv</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1a879eedac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo" alt="">
+                <ul id="sidemenu">
+
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div>
+                <div class="header-text">
+                    <p>Web developer</p>
+                    <h1>Hi, I'm <span>Austin</span>e <br>Makwaka from Kenya</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <--about-------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am Austine Makwaka, a dedicated and innovative web developer based in Kenya. With a strong background in front-end and back-end technologies, I specialize in creating responsive, user-friendly, and visually appealing websites and applications. My expertise spans UI/UX design, web development, and mobile app development, allowing me to deliver comprehensive digital solutions tailored to client needs.
+                        <br><br>
+                        I am passionate about leveraging the latest industry trends and best practices to build products that not only meet business objectives but also provide exceptional user experiences. My approach combines technical proficiency with creative problem-solving, ensuring every project is executed with precision and attention to detail.
+                        <br><br>
+                        Whether working independently or as part of a team, I am committed to delivering high-quality results on time and exceeding expectations. I continuously seek opportunities to learn and grow, staying updated with emerging technologies to provide innovative solutions for my clients.
+                    </p>
+                
+                    <div class="tabs-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabs-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                </div>
+                <div class="tabs-contents" id="expirience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>UI/UX Training at ET institute</li>
+                            <li><span>2023 - 2024</span><br>Team Lead at StarApp LLc.</li>
+                            <li><span>2021 - 2023</span><br>Internship at ekart ecommerce</li>
+                        </ul>
+                </div>
+                <div class="tabs-contents"id="education">
+                        <ul>
+                            <li><span>2025</span><br>Software Essentials at PLP</li>
+                            <li><span>2022 - 2024</span><br>UI/UX Design Training at et Institute</li>
+                            <li><span>2021 - 2022</span><br>MBA From MIT Texas</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <p>
+                I offer a comprehensive suite of digital solutions designed to help businesses and individuals thrive online. My expertise includes modern web design, intuitive UI/UX development, and robust mobile app creation. Each service is tailored to deliver high-quality results, ensuring seamless user experiences and impactful digital presence.
+            </p>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Custom website design and development, focusing on responsive layouts, performance, and accessibility to ensure your brand stands out online.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creation of user-centric interfaces and experiences, optimizing usability and engagement for web and mobile platforms.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Development of Android and iOS applications, from concept to deployment, with a focus on functionality, aesthetics, and user satisfaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO/ MYPROJECTS OR MY WORK -->
+     <div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="work-1.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world. Download it from the play store</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-2.png" alt="">
+                        <div class="layer">
+                <h3>music app</h3>
+                <p>The app connects you to the talented people around the world. Download it from the play store</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-3.png" alt="">
+                        <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world. Download it from the play store</p>
+                <a href=""><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+     </div>
+
+<!-- CONTACTT -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aimtechnology037@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+254705823941</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/aimtech7031?t=cSmC6UxgkB0rLf1-qr0ACg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=austine-makwaka-0b6109241"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/+254732374557"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <a href="Austine Makwaka - Resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="your email"required>
+                    <textarea name="Message" row="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- footer/copyright -->
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Aimtech. Made with <i class="fas fa-heart"></i> by Aimtech</p>
+    </div>
+ </div>
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tabs-contents");
+        function opentab(tabname) {
+            for (var tablink of tabLinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabContents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function  openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function  closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzhX9xEJy8vaaUhbvywEg6nMs5gwzJX1RgM0nbFUmq2k9kuE2q2l8ogokuSRsNILbvp6Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfuly"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
